@@ -1,0 +1,7 @@
+# Rozmiar pliku (w MB lub KB)
+size=10.01MB
+
+# Numer, który ma być przypisany w każdej linii
+number=123
+
+
