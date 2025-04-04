@@ -24,6 +24,10 @@ public class FileGenerator {
         System.out.println("2. TXT");
         System.out.println("3. XML");
         int fileFormatChoice = scanner.nextInt();
+        if (fileFormatChoice < 1 || fileFormatChoice > 3) {
+            System.out.println("Nieprawidłowy wybór!");
+            return;
+        }
 
         // Zapytanie użytkownika, czy chce generować plik na podstawie rozmiaru czy liczby wierszy
         System.out.println("Wybierz opcję:");
